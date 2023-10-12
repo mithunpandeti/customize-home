@@ -1,9 +1,9 @@
 {"people":[  
-    {"name":"Tester", "email":"bob32@gmail.com"},  
-    {"name":"QA", "email":"jai87@gmail.com"},
-    {"name":"ANGULAR", "email":"shyamjaiswal@gmail.com"},  
-    {"name":"React", "email":"bob32@gmail.com"},  
-    {"name":"SAP", "email":"jai87@gmail.com"},
-    {"name":"DEVoPS", "email":"shyamjaiswal@gmail.com"},
-    {"name":"Dot Net", "email":"shyamjaiswal@gmail.com"}  
+    {"name":"Rama Krishna", "email":"rk@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},  
+    {"name":"Ramana", "email":"ramana@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},
+    {"name":"Seenu", "email":"seenu@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},  
+    {"name":"Sreenivas", "email":"sreenivas@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},  
+    {"name":"Patnaik", "email":"patnaik@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},
+    {"name":"Thrimoorthulu", "email":"thrimoorthulu@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]},
+    {"name":"Nagalingam", "email":"nagalingam@gmail.com","about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.","specialities":["photography","travel","cooking"]}  
 ]}  
