@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+{
+                people && people.length>1 ? <select className='m-2 p-2 border-2 border-gray-300 rounded-lg' onChange={(e)=>setDeletePerson(e.target.value.split(","))}>
+                {
+                    people.map((person) => (
+                        <option key={person.id} value={person.fullname+","+person.id}>{person.fullname}</option>
+                    ))
+                }
+                </select>
+                : 
+                    people && people.length==1 &&
+                    <div className='p-4 border-2 border-gray-300 rounded-lg'>
+                        <p className='my-2'>Please click confirm to remove user</p>
+                        <span className=' my-2 font-bold'>{people[0].fullname}</span>
+                        <button className="bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded cursor-pointer" onClick={()=>deletePeople(people[0].id)}>Confirm</button>
+                    </div>
+                
+                
+            }
+            
+            {
+                deletePerson && (
+                    <div className='p-4 border-2 border-gray-300 rounded-lg'>
+                        <span className=' my-2'>You have selected:</span>
+                        <span className=' my-2 font-bold'>{deletePerson[0]}</span>
+                        <p className='my-2'>Please click confirm to remove user</p>
+                        <button className="bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded cursor-pointer" onClick={()=>deletePeople(deletePerson[1])}>Confirm</button>
+                    </div>
+                )
+            }
+            
